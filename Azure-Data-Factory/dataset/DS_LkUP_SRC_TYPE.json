@@ -1,0 +1,13 @@
+{
+	"name": "DS_LkUP_SRC_TYPE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LKUP_SRC_FILES",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

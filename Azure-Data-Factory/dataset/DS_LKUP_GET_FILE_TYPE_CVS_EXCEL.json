@@ -1,0 +1,13 @@
+{
+	"name": "DS_LKUP_GET_FILE_TYPE_CVS_EXCEL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LK_LKUP_GET_FILE_TYPE_CVS_EXCEL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

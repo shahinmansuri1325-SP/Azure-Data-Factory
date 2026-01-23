@@ -1,0 +1,189 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevetlproject01"
+		},
+		"LKUP_SRC_FILES_password": {
+			"value": ""
+		},
+		"LK_LKUP_GET_FILE_TYPE_CVS_EXCEL_password": {
+			"value": ""
+		},
+		"LK_LKUP_L2_TYPE_password": {
+			"value": ""
+		},
+		"LK_SINK_BULK_accountKey": {
+			"value": ""
+		},
+		"LK_SINK_ONPREM_SQL_accountKey": {
+			"value": ""
+		},
+		"LK_SINK_RESTAPI_accountKey": {
+			"value": ""
+		},
+		"LK_SINK_SFTP_accountKey": {
+			"value": ""
+		},
+		"LK_SRC_BULK_accountKey": {
+			"value": ""
+		},
+		"LK_SRC_SFTP_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_LKUP_JPB_DETAILS_password": {
+			"value": ""
+		},
+		"LS_LKP_ONPREM_password": {
+			"value": ""
+		},
+		"LS_LKUP_JOB_DETAILS_password": {
+			"value": ""
+		},
+		"LS_SINK_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_INCREMENTAL_LOAD_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_JSON_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_SNOWFLAKE_EVENT_TRIGGER_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_JSON_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_SNOWFLAKE_password": {
+			"value": ""
+		},
+		"LS_SRC_SNOWFLAKE_EVENT_TRIGGER_connectionString": {
+			"value": ""
+		},
+		"LKUP_SRC_FILES_properties_typeProperties_server": {
+			"value": "sql-server-etl-project01.database.windows.net"
+		},
+		"LKUP_SRC_FILES_properties_typeProperties_database": {
+			"value": "sql-db-etl-project"
+		},
+		"LKUP_SRC_FILES_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LK_LKUP_GET_FILE_TYPE_CVS_EXCEL_properties_typeProperties_server": {
+			"value": "sql-server-etl-project01.database.windows.net"
+		},
+		"LK_LKUP_GET_FILE_TYPE_CVS_EXCEL_properties_typeProperties_database": {
+			"value": "sql-db-etl-project"
+		},
+		"LK_LKUP_GET_FILE_TYPE_CVS_EXCEL_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LK_LKUP_L2_TYPE_properties_typeProperties_server": {
+			"value": "sql-server-etl-project01.database.windows.net"
+		},
+		"LK_LKUP_L2_TYPE_properties_typeProperties_database": {
+			"value": "sql-db-etl-project"
+		},
+		"LK_LKUP_L2_TYPE_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LK_SINK_BULK_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LK_SINK_ONPREM_SQL_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LK_SINK_RESTAPI_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LK_SINK_SFTP_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LK_SRC_BULK_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectraw01.dfs.core.windows.net/"
+		},
+		"LK_SRC_RESTAPI_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/4tnPiz/data"
+		},
+		"LK_SRC_SFTP_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectraw01.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_LKUP_JPB_DETAILS_properties_typeProperties_server": {
+			"value": "sql-server-etl-project01.database.windows.net"
+		},
+		"LS_EXCEL_LKUP_JPB_DETAILS_properties_typeProperties_database": {
+			"value": "sql-db-etl-project"
+		},
+		"LS_EXCEL_LKUP_JPB_DETAILS_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_LKP_ONPREM_properties_typeProperties_server": {
+			"value": "DANISH"
+		},
+		"LS_LKP_ONPREM_properties_typeProperties_database": {
+			"value": "etlproject"
+		},
+		"LS_LKP_ONPREM_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_LKUP_JOB_DETAILS_properties_typeProperties_server": {
+			"value": "sql-server-etl-project01.database.windows.net"
+		},
+		"LS_LKUP_JOB_DETAILS_properties_typeProperties_database": {
+			"value": "sql-db-etl-project"
+		},
+		"LS_LKUP_JOB_DETAILS_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_SINK_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LS_SINK_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LS_SINK_INCREMENTAL_LOAD_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LS_SINK_JSON_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LS_SINK_SNOWFLAKE_sasUri": {
+			"value": ""
+		},
+		"LS_SINK_SNOWFLAKE_EVENT_TRIGGER_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectsrc01.dfs.core.windows.net/"
+		},
+		"LS_SRC_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectraw01.dfs.core.windows.net/"
+		},
+		"LS_SRC_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectraw01.dfs.core.windows.net/"
+		},
+		"LS_SRC_JSON_properties_typeProperties_url": {
+			"value": "https://adlsdevetlprojectraw01.dfs.core.windows.net/"
+		},
+		"LS_SRC_SNOWFLAKE_properties_typeProperties_database": {
+			"value": "DBAZURESNOW"
+		},
+		"Tr_sample_csv_properties_PL1_MASTER_parameters_Trigger": {
+			"value": "Tr_sample_csv"
+		},
+		"Tr_sample_excel_properties_PL1_MASTER_parameters_Trigger": {
+			"value": "Tr_sample_excel"
+		},
+		"Tr_snowflake_event_trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/3707a747-bac1-4493-86f3-5fde84e76eb4/resourceGroups/RG_DEV_ETL_PROJECT/providers/Microsoft.Storage/storageAccounts/blobdevetlproject01"
+		}
+	}
+}

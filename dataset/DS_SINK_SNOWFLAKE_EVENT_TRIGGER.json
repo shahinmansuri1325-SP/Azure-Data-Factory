@@ -1,0 +1,41 @@
+{
+	"name": "DS_SINK_SNOWFLAKE_EVENT_TRIGGER",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SINK_SNOWFLAKE_EVENT_TRIGGER",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "input"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "geolocation_zip_code_prefix",
+				"type": "UTF8"
+			},
+			{
+				"name": "geolocation_lat",
+				"type": "UTF8"
+			},
+			{
+				"name": "geolocation_lng",
+				"type": "UTF8"
+			},
+			{
+				"name": "geolocation_city",
+				"type": "UTF8"
+			},
+			{
+				"name": "geolocation_state",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
